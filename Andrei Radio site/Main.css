@@ -1,0 +1,470 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.content {
+  height: 2580px;
+}
+
+header {
+  width: 76%;
+  height: 180px;
+  background-color: rgb(202, 4, 4);
+  margin-left: 12%;
+  float: left;
+}
+
+header img {
+  float: left;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.Playnow {
+  position: absolute;
+  top: 10px;
+}
+
+.PlaynowName {
+  position: relative;
+  margin-left: 83px;
+  margin-top: 30px;
+  float: left;
+  font-size: 1.2em;
+  color: white;
+}
+
+#advHeader {
+  width: 700px;
+  height: 80px;
+  float: left;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 40px;
+  background-color: rgb(195, 255, 167);
+}
+
+header button {
+  width: 130px;
+  position: relative;
+  margin-left: 22px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(0, 17, 255);
+  border-radius: 10px;
+  border: 2px solid blue;
+  background-color: chartreuse;
+}
+
+button a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  position: relative;
+  margin-top: 3px;
+}
+
+button a:hover {
+  text-decoration: underline;
+}
+
+header button:hover {
+  background-color: rgb(245, 236, 108);
+}
+
+nav ul {
+  list-style: none;
+  background-color: rgb(202, 4, 4);
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav ul::after {
+  content: "";
+  display: block;
+  clear: both;
+
+}
+
+nav li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+  width: 125px;
+  margin-left: 10px;
+}
+
+
+/*
+nav ul li a:hover {
+  background-color: violet;
+}*/
+
+nav .DownMenu {
+  color: black;
+  background-color: white;
+  position: relative;
+  margin-left: -10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.1em;
+  display: block;
+  z-index: 1;
+}
+
+nav .DownMenu:hover {
+  background-color: rgb(78, 193, 238);
+  color: black;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav {
+  position: absolute;
+  left: 360px;
+  top: 135px;
+}
+
+nav ul li ul {
+  color: black;
+}
+/*
+nav ul a:hover {
+  color: rgb(146, 146, 146);
+}*/
+/*
+li:hover > a {
+  color: rgb(146, 146, 146);
+}*/
+
+#advHeader h2 {
+  font-size: 1.7em;
+  position: relative;
+  margin-left: 20px;
+  float: left;
+  margin-top: 25px;
+  color: mediumvioletred;
+}
+
+header #button {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(171, 251, 41);
+  float: left;
+  position: relative;
+  margin-left: 60px;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.3em;
+}
+
+#button img {
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#button h2 {
+  font-family: Arial, Helvetica, sans-serif sans-serif;
+  font-size: 1.1em;
+  position: relative;
+  float: left;
+  margin-top: -39px;
+  margin-left: 56px;
+  display: block;
+}
+
+#button:hover {
+  background-color: rgb(0, 26, 255);
+}
+
+#button a {
+  display: block;
+  height: 100%;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  position: relative;
+}
+
+#button a:hover {
+  text-decoration: underline;
+}
+
+/*Styles for content*/
+
+#homeLink {
+  position: absolute;
+  float: left;
+  top: 210px;
+  margin-left: -1200px;
+}
+
+.content span {
+  position: absolute;
+  float: left;
+  top: 216px;
+  right: 1180px;
+}
+
+.content h1 {
+  font-size: 2.5em;
+  position: absolute;
+  float: left;
+  top: 250px;
+  right: 1195px;
+  color: rgb(175, 6, 6);
+  font-weight: bold;
+}
+
+/*styles for articles*/
+
+article {
+  width: 265px;
+  height: 370px;
+  background-color: white;
+  position: absolute;
+  top: 320px;
+  left: 205px;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 192, 192);
+}
+
+article img {
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.radioDescription {
+  float: left;
+  position: relative;
+  margin-top: 1px;
+  padding: 10px;
+  font-size: 1.1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.playButton {
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid silver;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgba(255, 0, 0, 0.774);
+  color: white;
+}
+
+.playButton:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+.playButton a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.playButton a {
+  color: white;
+}
+
+.article2 {
+  position: absolute;
+  float: left;
+  left: 520px;
+}
+
+.article3 {
+  position: absolute;
+  float: left;
+  left: 836px;
+}
+
+#articles {
+  float: left;
+  width: 94%;
+}
+
+.clear {
+  clear: both;
+}
+
+#articlesSecondLIne {
+  position: relative;
+  float: left;
+  margin-top: 200px;
+}
+
+#articlesThirdLIne {
+  position: relative;
+  float: left;
+  margin-top: 380px;
+}
+
+#articlesFourthLIne {
+  position: relative;
+  float: left;
+  margin-top: 380px;
+}
+
+#grayLine {
+  width: 60%;
+  float: left;
+  position: relative;
+  height: 2px;
+  margin-left: 13%;
+  background-color: gray;
+  margin-top: 1200px;
+}
+
+.SocialMediaBlock {
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 2100px;
+  left: 200px;
+}
+
+.SocialMediaBlock a {
+  position: relative;
+  margin-left: 5px;
+}
+
+/*Styles for footer*/
+footer {
+  float: left;
+  background-color: white;
+  position: absolute;
+  top: 2190px;
+  width: 76%;
+  height: 390px;
+  left: 12%;
+}
+
+footer .mainFooter {
+  width: 100%;
+  height: 350px;
+  float: left;
+  position: relative;
+  background-color: rgba(255, 0, 0, 0.794);
+}
+
+footer ul {
+  list-style-type: none;
+  position: relative;
+  margin-left: 100px;
+  margin-top: 35px;
+  line-height: 30px;
+  clear: both;
+}
+
+footer #FirstLi,
+#SecondLi {
+  color: white;
+  font-size: 1.4em;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  clear: both;
+}
+
+footer a:hover {
+  color: thistle;
+}
+
+footer #Ul2 {
+  position: absolute;
+  left: 180px;
+  bottom: 68px;
+}
+
+footer #Ul3 {
+  position: absolute;
+  left: 370px;
+  bottom: 129px;
+}
+
+footer #Ul4 {
+  position: absolute;
+  left: 560px;
+  bottom: 129px;
+}
+
+
+
+footer #LoveAppsSpan {font-size: 1.4em;
+color: white; position: absolute;
+left:850px;float: left;
+top: 39px;
+
+}
+footer #AppleImgFooter {position: absolute;
+float: left;
+left: 840px;
+top: 90px;
+}
+
+footer #AndroidImgFooter {position: absolute;
+float: left;
+left: 900px;
+top: 90px;}
+
+footer .FooterSpan {color: gray;position: relative;
+margin-left: 30px;
+margin-top: 10px;
+float: left;
+font-size: 0.9em;
+font-family: Arial, Helvetica, sans-serif;}
+
+footer .FooterSpan a {color: gray;}
+
+footer .FooterSpan a:hover {color: red;}
+
+footer .Span16 {position: relative;
+  float: left;
+font-size: 1.1em;
+color: gray;
+margin-top: 8px;
+margin-left: 120px;
+}
+
+footer .FooterSpan1 {position: relative;
+  float: left;
+font-size: 0.9em;
+color: gray;
+margin-top: 11px;
+font-family: Arial, Helvetica, sans-serif;}
